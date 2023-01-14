@@ -1,0 +1,64 @@
+site_name: ID Stitching dbt Package
+
+theme:
+  name: material
+  logo: assets/logo.png
+  favicon: assets/favicon.png
+  font:
+    text: Inter
+  icon:
+    repo: fontawesome/brands/github
+  features:
+    - navigation.footer
+  palette: 
+    - scheme: default
+      toggle:
+        icon: material/brightness-7 
+        name: Switch to dark mode
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+extra_css:
+  - assets/extra.css
+
+plugins:
+  - search
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.details
+  - pymdownx.superfences
+  - admonition
+  - attr_list
+  - md_in_html
+
+repo_url: https://github.com/rudderlabs/dbt-id-stitching
+repo_name: dbt-id-stitching
+
+nav:
+  - 'index.md'
+  - 'models.md'
+  - 'installation.md'
+  - 'configuration.md'
+  - 'usage.md'
+  - 'utilizing_id_graph.md'
+  - 'faq.md'
+
+copyright: Copyright &copy; 2023 RudderStack Inc.
+
+extra:
+  social:
+    - icon: fontawesome/brands/twitter 
+      link: https://twitter.com/RudderStack
+      name: RudderStack on Twitter
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/company/rudderstack
+      name: RudderStack on LinkedIn
+    - icon: fontawesome/brands/slack
+      link: https://www.rudderstack.com/join-rudderstack-slack-community
+      name: RudderStack Slack Community
