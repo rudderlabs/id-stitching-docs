@@ -29,3 +29,7 @@ pip install -r requirements.txt
 ```bash
 mkdocs serve
 ```
+
+## License
+
+[MIT](LICENSE)
