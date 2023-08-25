@@ -34,7 +34,7 @@ dbt run --select id_graph
 ### Python Script
 
 A Python script can be used to automatically run `edges` to necessary number of times by evaluating `check_edges` in a while loop expression.
-a
+
 ```python
 from os import system
 from sqlalchemy import create_engine, text
