@@ -25,10 +25,6 @@ theme:
 extra_css:
   - assets/extra.css
 
-plugins:
-  - search
-  - glightbox
-
 markdown_extensions:
   - pymdownx.highlight:
       anchor_linenums: true
